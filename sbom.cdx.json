@@ -1,0 +1,82 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:00f07c8a-6147-57b8-aa7a-35323a4a054f",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T17:39:07Z",
+  "component": {
+   "type": "application",
+   "name": "OPENRECYCLE",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/OPENRECYCLE@83b357604d34",
+   "purl": "pkg:generic/anticloud/OPENRECYCLE@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react@^18.3.1",
+   "bom-ref": "npm/react@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react-dom@^18.3.1",
+   "bom-ref": "npm/react-dom@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "@tailwindcss/vite",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/@tailwindcss/vite@^4.0.0",
+   "bom-ref": "npm/@tailwindcss/vite@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@vitejs/plugin-react",
+   "version": "^4.3.4",
+   "purl": "pkg:npm/@vitejs/plugin-react@^4.3.4",
+   "bom-ref": "npm/@vitejs/plugin-react@^4.3.4"
+  },
+  {
+   "type": "library",
+   "name": "tailwindcss",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/tailwindcss@^4.0.0",
+   "bom-ref": "npm/tailwindcss@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "vite",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/vite@^6.0.0",
+   "bom-ref": "npm/vite@^6.0.0"
+  }
+ ],
+ "sha_unverified": true
+}
